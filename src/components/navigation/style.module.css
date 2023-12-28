@@ -1,0 +1,46 @@
+.nav {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.nav_list {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    list-style: none;
+}
+.nav_list li:last-child {
+    cursor: pointer;
+}
+.nav a {
+    color: #505457;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    text-decoration: none;
+}
+.nav_login__link {
+    letter-spacing: -0.54px;
+}
+.nav_btn {
+    cursor: pointer;
+    position: relative;
+    padding: 14px 41px 14px 14px;
+    width: 248px;
+    color: #FFF;
+    font-size: 19px;
+    font-style: normal;
+    font-weight: 600;
+    letter-spacing: -0.38px;
+    border: none;
+    border-radius: 10px;
+    background-color: rgba(59, 157, 211, 1);
+}
+.nav_btn::after {
+    content: '';
+    position: absolute;
+    right: 20px;
+    width: 24px;
+    height: 24px;
+    background-image: url(../../assets/icons/application.svg);
+}

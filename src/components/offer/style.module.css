@@ -1,0 +1,68 @@
+.offer_section {
+    padding: 88px 0;
+}
+.offer_content {
+    display: flex;
+    flex-direction: column;
+    row-gap: 40px;
+}
+.offer_title {
+    width: 300px;
+    color: #505457;
+    font-size: 44px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 104%;
+    letter-spacing: -1.5px;
+}
+.offer_wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+.offer_inner {
+    display: flex;
+    justify-content: space-between;
+}
+.offer_cart {
+    display: flex;
+    flex-direction: column;
+    border-radius: 17px;
+    background: #FFF;
+    box-shadow: 0px 4px 41px 0px rgba(0, 0, 0, 0.05);
+    position: relative;
+}
+.offer_cart__text {
+    color: #505457;
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 114.5%;
+    letter-spacing: -1px;
+    padding: 20px 30px;
+}
+.offer_cart__text span {
+    font-style: italic;
+    font-weight: 700;
+}
+.offer_cart__img {
+    border-top-left-radius: 17px;
+    border-top-right-radius: 17px;
+}
+.offer_cart_1::before {
+    position: absolute;
+    content: "";
+    background: url(../../assets/icons/fire-icon.svg);
+    width: 58px;
+    height: 58px;
+    top: 22px;
+    left: 18px;
+}
+.offer_cart_2::before {
+    position: absolute;
+    content: "";
+    background: url(../../assets/icons/chemical-icon.svg);
+    width: 58px;
+    height: 58px;
+    top: 22px;
+    left: 18px;
+}
