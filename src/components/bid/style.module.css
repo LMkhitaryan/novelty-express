@@ -1,6 +1,7 @@
-.section_bid {
+.section {
     background: linear-gradient(175deg, #4B9FCE 3.68%, #3CA9E4 95.91%);
     padding: 65px 0;
+    width: 1680px;
 }
 .content {
     display: flex;

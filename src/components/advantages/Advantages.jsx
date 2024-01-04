@@ -4,7 +4,7 @@ import CredoCube from '../../assets/images/Credo-Cube.svg';
 
 const Advantages = () => {
   return (
-    <section className={styles.adv_section}>
+    <section className={styles.section}>
         <div className='container'>
             <div className={styles.content}> 
                 <h2 className={styles.title}>Почему мы?</h2>

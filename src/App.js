@@ -5,6 +5,7 @@ import AboutUspage from "./pages/AboutUs";
 import Offerpage from "./pages/Offer";
 import ContactsPage from "./pages/Contacts";
 import Header from "./components/header/Header";
+import Footer from './components/footer/Footer';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         <Route path="/offer" element={<Offerpage />} />
         <Route path="/contacts" element={<ContactsPage />} />
       </Routes>
+      <Footer />
     </BrowserRouter>
   ) 
 }

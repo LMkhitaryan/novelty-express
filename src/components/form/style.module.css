@@ -1,0 +1,70 @@
+.section {
+    width: 1680px;
+    padding-top: 86px;
+    padding-bottom: 109px;
+    background: #F3F3F3;
+}
+.content {
+    display: flex;
+    flex-direction: column;
+    row-gap: 35px;
+}
+.title {
+    width: 265px;
+    color: #505457;
+    font-size: 44px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 114%;
+    letter-spacing: -1.5px;
+}
+.subtitle {
+    width: 418px;
+    color: #505457;
+    font-size: 19px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 114.5%;
+    letter-spacing: -1px;
+    padding-top: 10px;
+}
+.form {
+    display: flex;
+    justify-content: space-between;
+}
+.input_text {
+    color: #728D9B;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 17px;
+    letter-spacing: -0.19px;
+    width: 510px;
+    padding: 17px;
+    border-radius: 8px;
+    background: #FFF;
+    outline: none;
+    border: none;
+}
+.btn {
+    cursor: pointer;
+    position: relative;
+    padding: 14px 41px 14px 14px;
+    width: 338px;
+    color: #FFF;
+    font-size: 19px;
+    font-style: normal;
+    font-weight: 600;
+    letter-spacing: -0.38px;
+    border: none;
+    border-radius: 10px;
+    background-color: rgba(59, 157, 211, 1);
+}
+
+.btn::after {
+    content: '';
+    position: absolute;
+    right: 20px;
+    width: 24px;
+    height: 24px;
+    background-image: url(../../assets/icons/application.svg);
+}

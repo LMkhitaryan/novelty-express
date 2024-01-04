@@ -4,7 +4,7 @@ import ManBuyTruck from '../../assets/images/man-buy-truck.png';
 
 const Bid = () => {
   return (
-    <section className={styles.section_bid}>
+    <section className={styles.section}>
         <div className='container'>
             <div className={styles.content}>
                 <div className={styles.left__side}>
