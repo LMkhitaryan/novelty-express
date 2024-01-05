@@ -1,0 +1,48 @@
+.section {
+    width: 1680px;
+    background-color: #FFF;
+}
+.content {
+    display: flex;
+    flex-direction: column;
+    row-gap: 35px;
+}
+.title {
+    color: #505457;
+    font-size: 44px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 104%;
+    letter-spacing: -1.5px;
+}
+.wrapper {
+    display: flex;
+    gap: 35px;
+    row-gap: 42px;
+    flex-wrap: wrap;
+}
+.inner {
+    border-radius: 17px;
+    background: #F9F9F9;
+    width: 682px;
+    padding: 32px;
+    row-gap: 13px;
+    display: flex;
+    flex-direction: column;
+}
+.inner_title {
+    color: #439ACA;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 104%;
+    letter-spacing: -1px;
+}
+.inner_descr {
+    color: #728D9B;
+    font-size: 19px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 114.5%;
+    letter-spacing: -1px;
+}

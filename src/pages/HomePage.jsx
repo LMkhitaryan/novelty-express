@@ -9,7 +9,7 @@ const Homepage = () => {
   return (
     <>
       <Bid />
-      <Offer />
+      <Offer title='Что мы предлагаем?'/>
       <Advantages />
       <Work />
       <Partners />

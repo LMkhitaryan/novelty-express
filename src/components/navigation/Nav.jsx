@@ -33,10 +33,10 @@ const Nav = () => {
         </li>
       </ul>
       <div style={{display: "flex", alignItems: "center", gap: "30px"}}>
-        <a href="tel: +7 495 118 40 48">+7 495 118 40 48</a>
+        <a className={styles.tel_link} href="tel: +7 495 118 40 48">+7 495 118 40 48</a>
         <div style={{display: 'flex', alignItems: 'center', gap: '7px'}}>
           <img src={RightArrow} alt="" />
-          <a className={styles.login__link} href="" onClick={(evt) => evt.preventDefault()}>Личный кабинет</a>
+          <a className={styles.login_link} href="" onClick={(evt) => evt.preventDefault()}>Личный кабинет</a>
         </div>
           <button className={styles.btn}>Оставить заявку</button>
       </div>

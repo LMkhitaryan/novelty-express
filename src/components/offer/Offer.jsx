@@ -7,12 +7,13 @@ import Cart3 from '../../assets/images/cart-img-3.png';
 import Cart4 from '../../assets/images/cart-img-4.png';
 import Cart5 from '../../assets/images/cart-img-5.png';
 
-const Offer = () => {
+const Offer = ({ title }) => {
+
   return (
     <section className={styles.section}>
         <div className='container'> 
             <div className={styles.content}>
-                  <h2 className={styles.title}>Что мы предлагаем?</h2>
+                  <h2 className={styles.title}>{title}</h2>
                   <div className={styles.wrapper}>
                       <div className={styles.inner}>
                           <div className={`${styles.cart} ${styles.cart_1}`}>

@@ -1,10 +1,9 @@
-
-
+import Info from "../components/info/Info"
 
 const Contactspage = () => {
   return (
     <>
-        <h1>Contacts</h1>
+      <Info />  
     </>
   )
 }

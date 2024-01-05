@@ -14,21 +14,20 @@ const Work = () => {
             <div className={styles.content}>
                   <h2 className={styles.title}>Как мы работаем?</h2>
                   <div className={styles.inner}>
-                      
                       <div className={styles.work_first__block}>
                           <img src={Task1} alt="task-list-1" className={styles.img} style={{ top: '-70px' }} />
-                          <button type='submit' className={styles.btn} onClick={(e) => e.preventDefault}>
+                          <div className={styles.btn} >
                               <div className={styles.btn_number}>
                                   <span>01</span>
                               </div>
                               <div className={styles.btn_title}>
                                   <p>Вы размещаете<br></br><span>заявку</span></p>
                               </div>
-                          </button>
+                          </div>
                       </div>
                       <div className={styles.work_second__block}>
                           <img src={Task2} alt="task-list-2" className={styles.img} style={{ top: '-120px' }} />
-                          <button type='submit' className={styles.btn} onClick={(e) => e.preventDefault}>
+                          <div className={styles.btn} >
                               <div className={styles.btn_number}>
                                   <span>02</span>
                               </div>
@@ -36,18 +35,18 @@ const Work = () => {
                                   <p>Вместе согласуем<br></br><span>маршрут</span></p>
                                   
                               </div>
-                          </button>
+                          </div>
                       </div>
                       <div className={styles.work_third__block}>
                           <img src={Task3} alt="task-list-3" className={styles.img} style={{ top: '-120px' }} />
-                          <button type='submit' className={styles.btn} onClick={(e) => e.preventDefault}>
+                          <div className={styles.btn} >
                               <div className={styles.btn_number}>
                                   <span>03</span>
                               </div>
                               <div className={styles.btn_title}>
                                   <p>Мы осуществляем<br></br><span>перевозку</span></p> 
                               </div>
-                          </button>
+                          </div>
                       </div>
                       <div style={{ position: 'relative' }}>
                           <div className={styles.work_fourth__block}>
@@ -60,7 +59,6 @@ const Work = () => {
                           </div>
                           <div className={styles.shadow_block}></div>
                       </div>
-                      
                   </div>
             </div>
         </div>

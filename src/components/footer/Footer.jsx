@@ -19,8 +19,8 @@ const Footer = () => {
                           </p>
                       </div>
                       <div className={styles.tel_block}>
-                          <a className={styles.tel} href="tel: +7 495 118 40 48">+7 495 118 40 48</a>
-                          <a className={styles.email} href="mailto: +7 495 118 40 48">info@novelty.express</a>
+                          <a className={styles.tel} href="tel:+7 495 118 40 48">+7 495 118 40 48</a>
+                          <a className={styles.email} href="mailto:info@novelty.express">info@novelty.express</a>
                       </div>
                       <button type='button' className={styles.btn}>
                           <img src={Message} alt="" />

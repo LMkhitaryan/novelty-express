@@ -1,0 +1,40 @@
+.section {
+    width: 1680px;
+    background: linear-gradient(175deg, #4B9FCE 3.68%, #3CA9E4 95.91%);
+}
+.content {
+    display: flex;
+    justify-content: space-between;
+    padding: 47px 0;
+    align-items: center;
+}
+.left_side {
+    display: flex;
+    flex-direction: column;
+    row-gap: 11px;
+}
+.descr_block {
+    display: flex;
+    flex-direction: column;
+    width: 585px;
+    row-gap: 20px;
+}
+.title {
+    color: #FFF;
+    font-size: 52px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 104%;
+    letter-spacing: -1.5px;
+}
+.descr {
+    color: #FFF;
+    font-size: 19px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 104%;
+    letter-spacing: -1.5px;
+}
+.descr span {
+    font-weight: 700;
+}

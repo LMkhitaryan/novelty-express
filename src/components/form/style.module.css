@@ -59,7 +59,9 @@
     border-radius: 10px;
     background-color: rgba(59, 157, 211, 1);
 }
-
+.btn:hover {
+    background-color: #52AEE0;
+}
 .btn::after {
     content: '';
     position: absolute;
