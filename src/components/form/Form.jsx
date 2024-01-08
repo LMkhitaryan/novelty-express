@@ -1,6 +1,5 @@
+import ButtonApplication from '../buttonApplication/ButtonApplication';
 import styles from './style.module.css';
-
-// import Way from '../../assets/images/footer-way.svg';
 
 const Form = () => {
   return (
@@ -17,7 +16,7 @@ const Form = () => {
                   <form className={styles.form} onClick={(e) => e.preventDefault}>
                       <input className={styles.input_text} type="text" placeholder='Ваше имя' />
                       <input className={styles.input_text} type="text" placeholder='+ 7 (' />
-                      <button onClick={(e) => e.preventDefault} type='button' className={styles.btn}>Оставить заявку</button>
+                      <ButtonApplication />
                   </form>
             </div>
         </div>

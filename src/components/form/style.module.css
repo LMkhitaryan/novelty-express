@@ -45,28 +45,3 @@
     outline: none;
     border: none;
 }
-.btn {
-    cursor: pointer;
-    position: relative;
-    padding: 14px 41px 14px 14px;
-    width: 338px;
-    color: #FFF;
-    font-size: 19px;
-    font-style: normal;
-    font-weight: 600;
-    letter-spacing: -0.38px;
-    border: none;
-    border-radius: 10px;
-    background-color: rgba(59, 157, 211, 1);
-}
-.btn:hover {
-    background-color: #52AEE0;
-}
-.btn::after {
-    content: '';
-    position: absolute;
-    right: 20px;
-    width: 24px;
-    height: 24px;
-    background-image: url(../../assets/icons/application.svg);
-}

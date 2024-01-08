@@ -25,8 +25,8 @@ const Info = () => {
                           </div>
                           <div className={styles.left_side__inner}>
                               <h3 className={styles.inner_title}>Адрес</h3>
-                              <div className={styles.email_block}>
-                                  <img src={Email} alt="" />
+                              <div className={styles.geo_block}>
+                                  <img src={Geo} alt="" />
                                   <p className={styles.inner_descr}>
                                       Москва, Филевский бульвар,
                                       д. 39, офис 4 

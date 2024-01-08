@@ -74,8 +74,8 @@
 .right_side_list__item::before {
     content: "";
     display: inline-block;
-    width: 8px;
-    height: 8px;
+    width: 10px;
+    height: 10px;
     margin-right: 18px;
     border-radius: 50%;
 }

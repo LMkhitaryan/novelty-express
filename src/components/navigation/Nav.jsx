@@ -3,6 +3,7 @@ import {NavLink} from "react-router-dom";
 
 import Search from "../../assets/icons/search.svg";
 import RightArrow from '../../assets/icons/rightarrow.svg';
+import ButtonApplication from "../buttonApplication/ButtonApplication";
 
 const Nav = () => {
 
@@ -38,7 +39,7 @@ const Nav = () => {
           <img src={RightArrow} alt="" />
           <a className={styles.login_link} href="" onClick={(evt) => evt.preventDefault()}>Личный кабинет</a>
         </div>
-          <button className={styles.btn}>Оставить заявку</button>
+          <ButtonApplication />
       </div>
     </nav>
   );

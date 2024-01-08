@@ -1,0 +1,50 @@
+.btn {
+    cursor: pointer;
+    position: relative;
+    padding: 14px 41px 14px 14px;
+    width: 248px;
+    color: #FFF;
+    font-size: 19px;
+    font-style: normal;
+    font-weight: 600;
+    letter-spacing: -0.38px;
+    border: none;
+    border-radius: 10px;
+    background-color: rgba(59, 157, 211, 1);
+}
+.btn:hover {
+    background-color: #52AEE0;
+}
+.btn::after {
+    content: '';
+    position: absolute;
+    right: 20px;
+    width: 24px;
+    height: 24px;
+    background-image: url(../../assets/icons/application.svg);
+}
+.btn_bid {
+    cursor: pointer;
+    position: relative;
+    padding: 14px 41px 14px 14px;
+    width: 248px;
+    color: rgb(59, 157, 211);
+    font-size: 19px;
+    font-style: normal;
+    font-weight: 600;
+    letter-spacing: -0.38px;
+    border: none;
+    border-radius: 10px;
+    background-color: #FFF;
+}
+.btn_bid:hover {
+    background-color: #f9f7f7;
+}
+.btn_bid::after {
+    content: '';
+    position: absolute;
+    right: 20px;
+    width: 24px;
+    height: 24px;
+    background-image: url(../../assets/icons/application-blue.svg);
+}
